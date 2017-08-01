@@ -1,0 +1,26 @@
+<html>
+<head>
+	<title>MP2</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text|Libre+Baskerville|Oswald" rel="stylesheet">
+	<link rel='stylesheet' type='text/css' href='/Machine_Project_2/FinalMP/styles.css'>
+	<script src='/Machine_Project_2/FinalMP/jquery-3.2.1.min.js'></script>
+	<script src="/Machine_Project_2/FinalMP/script.js"></script>
+</head>
+<body>
+<header>
+<form method="GET" action="/Machine_Project_2/Login">
+	<div id="headerwrapper">
+		<img class="navbuttons homebtn"  src="/Machine_Project_2/FinalMP/resources/home.png" onclick="Home()">
+		<img class="navbuttons searchbtn"  src="/Machine_Project_2/FinalMP/resources/search.png" onclick="searchPopup()">
+		<img class="navbuttons uploadbtn"  src="/Machine_Project_2/FinalMP/resources/upload.png" onclick="uploadPopup()">
+		<img class="navbuttons profilebtn"  src="/Machine_Project_2/FinalMP/resources/profile.png" onclick="viewProfile(currentuser)">
+		<input type="image" name="logout" src="/Machine_Project_2/FinalMP/resources/logout.png" class="navbuttons logoutbtn">
+	</div>
+</form>
+</header>
+
+<button class="navbuttons loadbtn" onclick="loadPhotos()">Load more</button>
+</body>
+</html>
